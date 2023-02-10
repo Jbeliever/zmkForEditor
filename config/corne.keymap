@@ -110,10 +110,10 @@
 
     raise {
       bindings = <
-&none  &none  &none   &none   &none   &none     &none  &kp N7  &kp N8  &kp N9      &kp MINUS  &kp EQUAL
-&none  &none  &none   &none   &none   &none     &none  &kp N4  &kp N5  &kp N6       &kp LBKT   &kp RBKT
-&none  &none  &none   &none   &none   &none     &none  &kp N1  &kp N2  &kp N3  &kp BACKSLASH     &trans
-                     &trans  &trans  &reset    &trans   &mo 3  &kp N0
+&trans  &none  &none   &none   &none   &none     &none  &kp N7  &kp N8  &kp N9      &kp MINUS  &kp EQUAL
+&trans  &none  &none   &none   &none   &none     &none  &kp N4  &kp N5  &kp N6       &kp LBKT   &kp RBKT
+&trans  &none  &none   &none   &none   &none     &none  &kp N1  &kp N2  &kp N3  &kp BACKSLASH     &trans
+                      &trans  &trans  &trans    &trans   &mo 3  &kp N0
       >;
     };
 
@@ -128,7 +128,7 @@
 
     both {
       bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_COLOR_HSB(0,60,50)
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &reset  &trans  &trans  &trans  &trans    &rgb_ug RGB_COLOR_HSB(0,60,50)
     &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(120,60,50)
     &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(240,60,50)
                                               &trans        &trans        &trans    &trans  &trans  &trans
