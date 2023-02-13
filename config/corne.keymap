@@ -106,7 +106,7 @@
       bindings = <
 &trans  &none  &none   &none      &none   &none    &kp N7  &kp N8  &kp N9  &kp MINUS  &kp EQUAL         &trans
 &trans  &none  &none   &none      &none   &none    &kp N4  &kp N5  &kp N6   &kp LBKT   &kp RBKT  &kp BACKSLASH
-&trans  &none  &none   &none      &none   &none    &kp N2  &kp N3  &kp N4     &trans     &trans         &trans
+&trans  &none  &none   &none      &none   &none    &kp N2  &kp N2  &kp N4     &trans     &trans         &trans
                       &trans  &kp SPACE  &trans     &mo 3  &trans  &kp N0
       >;
     };
